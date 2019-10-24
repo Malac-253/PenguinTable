@@ -174,7 +174,7 @@ var mainCode = function(penguinsData){
             penguins.homework_mean = arrayofHW[i]
             penguins.test_mean = arrayofTest[i]
             penguins.final_test = arrayofFinal[i]
-            penguins.final_grade =(penguins.homework_mean*.15)+(penguins.quiz_mean*.20)+(penguins.test_mean*.30)+(penguins.final_test*.35) 
+            penguins.final_grade =(penguins.homework_mean*2*.15)+(penguins.quiz_mean*10*.20)+(penguins.test_mean*.30)+(penguins.final_test*.35) 
             
             penguins.final_grade_color = "green";
             if (penguins.final_grade < 80) {penguins.final_grade_color = "#f39c12";}
